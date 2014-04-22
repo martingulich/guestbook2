@@ -70,7 +70,7 @@ public class GuestbookServletTest {
 
     User currentUser = UserServiceFactory.getUserService().getCurrentUser();
 
-    assertEquals("Hello, " + currentUser.getNickname() + System.getProperty("line.separator"), stringWriter.toString());
+    assertEquals("Hello there, " + currentUser.getNickname() + System.getProperty("line.separator"), stringWriter.toString());
   }
 
 }
