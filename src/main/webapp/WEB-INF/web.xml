@@ -16,7 +16,7 @@
         <welcome-file>guestbook.jsp</welcome-file>
     </welcome-file-list>
     
-    	<!-- Security - restrict access to whole application -->
+    <!-- Security - restrict access to whole application -->
     <security-constraint>
        <web-resource-collection>
            <web-resource-name>admin</web-resource-name>
